@@ -276,3 +276,20 @@ small {
   line-height: 1.6;
 }
 /* add faq section end */
+
+/* footer section start */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #969696;
+  width: 100%;
+  padding: 60px 32px;
+  margin-top: 20px;
+}
+footer .footer {
+  display: flex;
+  gap: 30px;
+}
+/* footer section end */
