@@ -88,6 +88,7 @@ main {
 main h1 {
   font-size: 4.5rem;
   color: #fff;
+  margin-top: 80px;
 }
 main p {
   font-size: 1.5rem;
