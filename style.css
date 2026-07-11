@@ -94,9 +94,15 @@ main p {
   color: #fff;
   margin: 8px;
 }
-
-.btn button {
-  margin-top: 200px;
+main .btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+main .btn button {
+  margin: 200px;
+  text-align: center;
+  align-items: center;
   padding: 20px 45px;
   border-radius: 15px;
   line-height: 1rem;
