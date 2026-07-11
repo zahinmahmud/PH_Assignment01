@@ -106,7 +106,7 @@ main p {
 /* main style  end*/
 
 /* meet the speaker section */
-section .one {
+section {
   display: grid;
   grid-template-columns: repeat(2 1fr);
   align-items: center;
@@ -115,18 +115,14 @@ section .one {
 }
 
 section {
-  margin-top: 40px;
+  margin: 50px 0;
 }
-
-div h1,
-div h2,
-div h4,
-div h5 {
+.speaker h1 {
   text-align: center;
-  margin: 50px 0px;
 }
-div h6 {
-  align-items: center;
+.speaker p {
+  text-align: center;
+  margin-top: 10px;
 }
 
 small {
@@ -136,9 +132,71 @@ small {
 .text_section {
   text-align: left;
   margin-left: 20px;
+  line-height: 2.5rem;
 }
 
 .border {
   border: 1px solid #cfcccc;
   padding-bottom: 20px;
 }
+/* meet the speacker section end */
+/* card section starts */
+.card {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  line-height: 2.5rem;
+}
+
+.card .card-1 {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 35px;
+  border-radius: 5px;
+  gap: 20px;
+}
+.card h3 {
+  color: #8a8a8a;
+  text-transform: uppercase;
+}
+.card h1 {
+  text-align: left;
+  font-size: 3.5rem;
+}
+.card h4 {
+  text-transform: uppercase;
+  color: #1d4ed8;
+}
+.card p {
+  color: #8a8a8a;
+}
+.card .card-2 {
+  background-color: #000;
+  color: #fff;
+  padding: 35px;
+}
+.card h2 {
+  color: rgb(107, 107, 243);
+  text-align: left;
+  font-size: 3.5rem;
+}
+.btn {
+  background-color: transparent;
+  color: #1d4ed8;
+  padding: 12px 35px;
+  width: 100%;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.btn_dark {
+  background-color: #1d4ed8;
+  color: #fff;
+  padding: 12px 35px;
+  width: 100%;
+  margin-top: 12px;
+  cursor: pointer;
+}
+/* Card section end */
